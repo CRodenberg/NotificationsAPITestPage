@@ -1,0 +1,74 @@
+h4{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h2{
+	width: 100%;
+	text-align:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #afafaf;
+    border-radius: 3px;	
+}
+.header{
+	margin-bottom: 20px;
+}
+.title{
+	text-align: center;
+	width: 100%;
+}
+.form-body{
+	float: left; 
+	padding: 15px; 
+	background-color: #afafaf; 
+	border: 2px solid black;
+	min-height: 300px;
+	width: 500px;
+}
+.response-body{
+	position: relative;
+	bottom:0;
+	padding: 5px;
+	background-color: #eae1e1;
+	border: 2px solid black;
+	min-height: 300px;
+	overflow-y:auto;
+	width:95%;
+
+}
+.response-text{
+	overflow-x:auto;
+	overflow-y:auto;
+}
+.api-section{
+	clear: left;
+}
+#NotificationBodyCreate{
+	display:none;
+}
+#NotificationBodyUpdate{
+	display:none;
+}
+#NotificationBodyDelete{
+	display:none;
+}
+#NotificationBodyDeleteAll{
+	display:none;
+}
+#NotificationBodyGetTop{
+	display:none;
+}
+#NotificationBodyGetAll{
+	display:none;
+}
+#NotificationBodyGetUnread{
+	display:none;
+}
